@@ -4,18 +4,73 @@
     <meta caharset="utf-8">
     <title>Proyecto Final Triangle</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css">
-    <link rel="stylesheet" href="../assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="../public/css/style.css">
   </head>
   <body>
-    <h2>Hola Mundo</h2>
-    <header> 
-      <section class="row right"><i aria-hidden="true" class="fa fa-facebook"></i><i aria-hidden="true" class="fa fa-twitter"></i><i aria-hidden="true" class="fa fa-google-plus"></i><i aria-hidden="true" class="fa fa-dribbble"></i></section>
-    </header>
-    <p id="action"></p>
-    <script type="text/x-handlebars-template" id="index">
-      <h2>Hola mi nombre es: {{{name}}}</h2>
-    </script>
+    <section class="row">
+      <div class="col s2 offset-s9 grey-text iconosHome"><i aria-hidden="true" class="fa fa-facebook"></i><i aria-hidden="true" class="fa fa-twitter"></i><i aria-hidden="true" class="fa fa-google-plus"></i><i aria-hidden="true" class="fa fa-dribbble"></i><i aria-hidden="true" class="fa fa-instagram"></i></div>
+    </section>
+    <nav>
+      <div class="container"><a href="#" class="brand-logo left"><img src="../assets/images/logo.png" class="logo valign-wrapper"></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a class="material-icons black-text">HOME </a></li>
+          <li><a class="material-icons cyan-text">PAGES arrow_drop_down</a></li>
+          <li><a class="material-icons black-text">BLOG arrow_drop_down</a></li>
+          <li><a class="material-icons black-text">PORTFOLIO arrow_drop_down</a></li>
+          <li><a class="material-icons black-text">HOME</a></li>
+          <li>   <i class="material-icons cyan-text">search</i></li>
+        </ul>
+      </div>
+    </nav>
+    <section class="row fondoTriangulos">
+      <div class="col s4 offset-s1"> 
+        <h5>About us</h5>
+        <p>Why our Clients love to work with us</p>
+      </div>
+    </section>
+    <section class="row">
+      <div class="col s4 offset-s1"><img src="../assets/images/aboutus/1.png" class="responsive-img"></div>
+      <div class="col s5 offset-s1">
+        <p class="espacio">Shoulder bresaola sausage consequat ground round duis excepteur exercitation landjaeger sunt. Duis officia sed frankfurter dolore pastrami tenderloin.</p>
+        <p>When an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</p>
+      </div>
+    </section>
+    <section class="container center">
+      <div id="action" class="row espacio">
+        <div class="col s4"> <img src="../assets/images/home/icon1.png" class="responsive-img">
+          <h5>Incredibly Responsive</h5>
+          <p>Ground round tenderloin flank shank ribeye. Hamkevin meatball swine. Cow shankle beef sirloin chicken ground round.</p>
+        </div>
+        <div class="col s4"> <img src="../assets/images/home/icon2.png" class="responsive-img">
+          <h5>Superior Typography</h5>
+          <p>Hamburger ribeye drumstick turkey, strip steak sausage ground round shank pastrami beef brisket pancetta venison.</p>
+        </div>
+        <div class="col s4"> <img src="../assets/images/home/icon3.png" class="responsive-img">
+          <h5>Swift Page Builder</h5>
+          <p>Venison tongue, salami corned beef ball tip meatloaf bacon. Fatback pork belly bresaola tenderloin bone pork kevin shankle.</p>
+        </div>
+      </div>
+    </section>
+    <section class="row fondoTriangulos valign-wrapper">
+      <div class="col s4 offset-s1"> 
+        <h5>Triangle Corporate Template</h5>
+        <p>A responsive, retina-ready & wide multipurpose template.</p>
+      </div>
+      <div class="col s2 offset-s1 center">
+        <button>TAKE THE TOUR</button>
+      </div>
+      <div class="col s4 center"><img src="../assets/images/home/tour-icon2.png" class="responsive-img"></div>
+    </section>
+    <!--script(type="text/x-handlebars-template", id="index")
+    | {{#each caracteristicas}}
+    div.col.s4 
+    div {{{imagen}}}
+    p {{{titulo}}}
+    p {{{resumen}}}
+    
+    -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.min.js"></script>
     <script type="text/javascript" src="../assets/js/app.js"></script>
   </body>

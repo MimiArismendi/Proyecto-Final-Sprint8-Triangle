@@ -1,0 +1,29 @@
+/*.iconosHome{
+    letter-spacing: 10px;
+}
+nav{
+    background-color: white;
+    box-shadow: none;
+}
+
+a.material-icons{
+    font-size: 15px;
+}*/
+.iconosHome {
+  letter-spacing: 10x; }
+
+nav {
+  background-color: white;
+  box-shadow: none; }
+  nav a.material-icons {
+    font-size: 15px; }
+
+.fondoTriangulos {
+  background-image: url(../../assets/images/404-bg.png);
+  background-position: center;
+  opacity: .8; }
+
+.espacio {
+  padding-top: 100px; }
+
+/*# sourceMappingURL=style.css.map */

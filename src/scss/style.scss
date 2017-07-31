@@ -1,0 +1,38 @@
+/*.iconosHome{
+    letter-spacing: 10px;
+}
+nav{
+    background-color: white;
+    box-shadow: none;
+}
+
+a.material-icons{
+    font-size: 15px;
+}*/
+
+$titulos: 15px;
+$blancos: white;
+$espacios: 10x;
+$espacioSuperior: 100px;
+
+.iconosHome{
+    letter-spacing: $espacios;
+}
+
+nav{
+    background-color: $blancos;
+    box-shadow: none;
+    a.material-icons{
+        font-size: $titulos;
+    }
+}
+
+.fondoTriangulos{
+    background-image: url(../../assets/images/404-bg.png);
+    background-position: center;
+    opacity: .8;
+}
+
+.espacio{
+    padding-top: $espacioSuperior;
+}
