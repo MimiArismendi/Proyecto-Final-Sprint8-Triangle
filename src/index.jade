@@ -1,0 +1,25 @@
+doctype
+html(lang="es")
+    head
+        meta(caharset="utf-8")
+        title Proyecto Final Triangle
+        link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css")
+        link(rel="stylesheet", href="../assets/css/style.css")
+        link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css")
+        
+    body
+        h2 Hola Mundo
+        header  
+            section.row.right
+                i(class="fa fa-facebook", aria-hidden="true")
+                i(class="fa fa-twitter", aria-hidden="true")
+                i(class="fa fa-google-plus", aria-hidden="true")
+                i(class="fa fa-dribbble", aria-hidden="true")
+                
+        p#action
+        script(type="text/x-handlebars-template", id="index")
+            h2 Hola mi nombre es: {{{name}}}
+        
+        script(type="text/javascript", src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.min.js")
+        
+        script(type="text/javascript", src="../assets/js/app.js")
