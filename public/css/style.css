@@ -23,6 +23,14 @@ nav {
   background-position: center;
   opacity: .8; }
 
+.footer {
+  background-image: url(../../assets/images/home/footer.png);
+  background-size: cover;
+  background-position: bottom; }
+
+.espacioLineas {
+  line-height: 5px; }
+
 .espacio {
   padding-top: 100px; }
 

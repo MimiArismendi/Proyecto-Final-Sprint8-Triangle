@@ -1,6 +1,4 @@
-var template = document.getElementById("index").
-                innerHTML;
-            console.log(template);
+var template = Handlebars.templates["index"]; 
             var compilar = Handlebars.compile(template);
     
             var cuadrosAboutUsChicos = {
@@ -23,5 +21,8 @@ var template = document.getElementById("index").
                 ]
             }
             
-            var compiladoHTML = compilar(cuadrosAboutUsChicos);
-            document.getElementById("action").innerHTML += compiladoHTML;
+            
+            document.getElementById("action").innerHTML += template(data);
+            
+            
+
