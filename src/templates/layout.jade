@@ -1,0 +1,133 @@
+doctype
+html(lang="es")
+    head
+        meta(caharset="utf-8")
+        title Proyecto Final Triangle
+        link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css")
+        link(rel="stylesheet", href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css")
+        link(href="https://fonts.googleapis.com/icon?family=Material+Icons", rel="stylesheet")
+        link(rel="stylesheet", href="../public/css/style.css")
+    body
+        block main
+            section.row
+                    .col.s2.offset-s9.grey-text.iconosHome
+                        i(class="fa fa-facebook", aria-hidden="true")
+                        i(class="fa fa-twitter", aria-hidden="true")
+                        i(class="fa fa-google-plus", aria-hidden="true")
+                        i(class="fa fa-dribbble", aria-hidden="true")
+                        i(class="fa fa-instagram", aria-hidden="true")
+            nav
+                .container
+                    a(href="#").brand-logo.left
+                        img.logo.valign-wrapper(src="../assets/images/logo.png")
+                    ul.right.hide-on-med-and-down
+                        li
+                            a.material-icons.black-text HOME 
+                        li
+                            a.material-icons.cyan-text PAGES arrow_drop_down
+                        li
+                            a.material-icons.black-text BLOG arrow_drop_down
+                        li
+                            a.material-icons.black-text PORTFOLIO arrow_drop_down
+                        li
+                            a.material-icons.black-text HOME
+                        li    
+                            i.material-icons.cyan-text search
+            section.row.fondoTriangulos
+                .col.s4.offset-s1 
+                    h5 About us
+                    p Why our Clients love to work with us
+            section.row
+                .col.s4.offset-s1
+                    img.responsive-img(src="../assets/images/aboutus/1.png")
+                .col.s5.offset-s1
+                    p.espacio Shoulder bresaola sausage consequat ground round duis excepteur exercitation landjaeger sunt. Duis officia sed frankfurter dolore pastrami tenderloin.
+                    p When an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.
+            section.container.center
+                .row.espacio
+                    .col.s4 
+                        img.responsive-img(src="../assets/images/home/icon1.png")
+                        h5 Incredibly Responsive
+                        p Ground round tenderloin flank shank ribeye. Hamkevin meatball swine. Cow shankle beef sirloin chicken ground round.
+                    .col.s4 
+                        img.responsive-img(src="../assets/images/home/icon2.png")
+                        h5 Superior Typography
+                        p Hamburger ribeye drumstick turkey, strip steak sausage ground round shank pastrami beef brisket pancetta venison.
+                    .col.s4 
+                        img.responsive-img(src="../assets/images/home/icon3.png")
+                        h5 Swift Page Builder
+                        p Venison tongue, salami corned beef ball tip meatloaf bacon. Fatback pork belly bresaola tenderloin bone pork kevin shankle.
+            section#action
+            section.row.fondoTriangulos.valign-wrapper
+                    .col.s4.offset-s1 
+                        h5 Triangle Corporate Template
+                        p A responsive, retina-ready & wide multipurpose template.
+                    .col.s2.offset-s1.center
+                        button TAKE THE TOUR
+                    .col.s4.center
+                        img.responsive-img(src="../assets/images/home/tour-icon2.png")
+            section.container.center
+                h4 Meet the Team
+                p Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                p Ut enim ad minim veniam, quis nostrud
+            section.container
+                .row
+                    .col.s3
+                        img.responsive-img(src="../assets/images/aboutus/4.jpg")
+                        h5.grey-text John Doe
+                        p CEO & Developer
+                    .col.s3
+                        img.responsive-img(src="../assets/images/aboutus/3.jpg")
+                        h5.grey-text John Doe
+                        p CEO & Developer
+                    .col.s3
+                        img.responsive-img(src="../assets/images/aboutus/2.jpg")
+                        h5.grey-text John Doe
+                        p CEO & Developer
+                    .col.s3
+                        img.responsive-img(src="../assets/images/aboutus/1.jpg")
+                        h5.grey-text John Doe
+                        p CEO & Developer
+            section.container.fondoCirculos
+                img.responsive-img(src="../assets/images/home/under.png")
+            section.footer.espacio
+                .row
+                    .col.s4.offset-s1
+                        h5 Testimonial
+                        .col.s4
+                            img(src="../assets/images/home/profile1.png")
+                        .col.s8
+                            p "Nisi commodo bresaola, leberkas venison eiusmod bacon occaecat labore tail."
+                            p.red-text - Jhon Kalis
+                        .col.s4
+                            img(src="../assets/images/home/profile2.png")
+                        .col.s8
+                            p "Capicola nisi flank sed minim sunt aliqua rump pancetta leberkas venison eiusmod."
+                            p.red-text - Abraham Josef
+                    .col.s3   
+                        h5 Contacts
+                        p.espacioLineas E-mail: email@email.com 
+                        p.espacioLineas Phone: +1 (123) 456 7890 
+                        p.espacioLineas Fax: +1 (123) 456 7891 
+                        br
+                        h5 Address
+                        p.espacioLineas Unit C2, St.Vincent's Trading Est., 
+                        p.espacioLineas Feeder Road,  
+                        p.espacioLineas Bristol, BS2 0UY  
+                        p.espacioLineas United Kingdom 
+                    .col.s3
+                        h5 Send a message
+                        textarea(placeholder="Name")
+                        textarea(placeholder="Email Id")
+                        textarea(placeholder="Your text here")
+                        button.btn.btn-large.submit.center SUBMIT
+                section.copy.center.white-text
+                    p ©Your Company 2014, All Rights Reserved.
+                    p Crafted by    
+                        span.blue-text Allie
+
+            
+            
+        script(type="text/javascript", src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.min.js")
+        script(src="../public/template.js")
+        script(type="text/javascript", src="../public/app.js")doctype

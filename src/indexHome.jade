@@ -23,70 +23,67 @@ html(lang="es")
                     li
                         a.material-icons.black-text HOME 
                     li
-                        a.material-icons.cyan-text PAGES arrow_drop_down
+                        a.material-icons.cyan-text(href="index.html") PAGES arrow_drop_down
                     li
                         a.material-icons.black-text BLOG arrow_drop_down
                     li
                         a.material-icons.black-text PORTFOLIO arrow_drop_down
                     li
-                        a.material-icons.black-text SHORTODES
+                        a.material-icons.black-text SHORTCODES
                     li    
                         i.material-icons.cyan-text search
-        section.row.fondoTriangulos
-            .col.s4.offset-s1 
-                h5 About us
-                p Why our Clients love to work with us
-        section.row
-            .col.s4.offset-s1
-                img.responsive-img(src="../assets/images/aboutus/1.png")
-            .col.s5.offset-s1
-                p.espacio Shoulder bresaola sausage consequat ground round duis excepteur exercitation landjaeger sunt. Duis officia sed frankfurter dolore pastrami tenderloin.
-                p When an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.
+        section.espacio
+            .row.fondoMotana
+                .col.s4.offset-s1 
+                    h5 We Are Creative Nerds
+                    p Boudin doner frankfurter pig. Cow shank bresaola pork loin tri-tip tongue venison pork belly meatloaf short loin landjaeger biltong beef ribs shankle chicken andouille.
+                    button.sinFondo.cyan-text SIGN UP
+                .col.s6
+                    img.responsive-img.montana(src="../assets/images/home/slider/hill.png")
+                    img.responsive-img.casa(src="../assets/images/home/slider/house.png")
+                    img.responsive-img.sol(src="../assets/images/home/slider/sun.png")
+                    img.responsive-img.aves1(src="../assets/images/home/slider/birds1.png")
+                    img.responsive-img.aves2(src="../assets/images/home/slider/birds2.png")
         section.container.center
             .row.espacio
                 .col.s4 
-                    img.responsive-img(src="../assets/images/home/icon1.png")
                     h5 Incredibly Responsive
                     p Ground round tenderloin flank shank ribeye. Hamkevin meatball swine. Cow shankle beef sirloin chicken ground round.
                 .col.s4 
-                    img.responsive-img(src="../assets/images/home/icon2.png")
                     h5 Superior Typography
                     p Hamburger ribeye drumstick turkey, strip steak sausage ground round shank pastrami beef brisket pancetta venison.
                 .col.s4 
-                    img.responsive-img(src="../assets/images/home/icon3.png")
                     h5 Swift Page Builder
                     p Venison tongue, salami corned beef ball tip meatloaf bacon. Fatback pork belly bresaola tenderloin bone pork kevin shankle.
-        section#action
-        section.row.fondoTriangulos.valign-wrapper
-                .col.s4.offset-s1 
-                    h5 Triangle Corporate Template
-                    p A responsive, retina-ready & wide multipurpose template.
-                .col.s2.offset-s1.center
-                    button TAKE THE TOUR
+        section.row.fondoTriangulosHome.valign-wrapper
+                .col.s2.offset-s6.center
+                    button.sinFondo.cyan-text TAKE THE TOUR
                 .col.s4.center
                     img.responsive-img(src="../assets/images/home/tour-icon2.png")
-        section.container.center
-            h4 Meet the Team
-            p Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            p Ut enim ad minim veniam, quis nostrud
-        section.container
+        section.container.espacio
             .row
-                .col.s3
-                    img.responsive-img(src="../assets/images/aboutus/4.jpg")
-                    h5.grey-text John Doe
-                    p CEO & Developer
-                .col.s3
-                    img.responsive-img(src="../assets/images/aboutus/3.jpg")
-                    h5.grey-text John Doe
-                    p CEO & Developer
-                .col.s3
-                    img.responsive-img(src="../assets/images/aboutus/2.jpg")
-                    h5.grey-text John Doe
-                    p CEO & Developer
-                .col.s3
-                    img.responsive-img(src="../assets/images/aboutus/1.jpg")
-                    h5.grey-text John Doe
-                    p CEO & Developer
+                .col.s5
+                    img.responsive-img(src="../assets/images/home/image1.png")
+                .col.s7
+                    h5 Experienced and Enthusiastic
+                    p Pork belly leberkas cow short ribs capicola pork loin. Doner fatback frankfurter jerky meatball pastrami bacon tail sausage. Turkey fatback ball tip, tri-tip tenderloin drumstick salami strip steak.
+            .row
+                .col.s7
+                    h5 Built for the Responsive Web
+                    p Mollit eiusmod id chuck turducken laboris meatloaf pork loin tenderloin swine. Pancetta excepteur fugiat strip steak tri-tip. Swine salami eiusmod sint, ex id venison non. Fugiat ea jowl cillum meatloaf.
+                .col.s5
+                    img.responsive-img(src="../assets/images/home/image2.png") 
+            .row
+                .col.s5
+                    img.responsive-img(src="../assets/images/home/image3.png")
+                .col.s7
+                    h5.grey-text Experienced and Enthusiastic
+                    p Ut officia cupidatat anim excepteur fugiat cillum ea occaecat rump pork chop tempor. Ut tenderloin veniam commodo. Shankle aliquip short ribs, chicken eiusmod exercitation shank landjaeger spare ribs corned beef.
+        section.container.center
+            img.responsive-img(src="../assets/images/home/clients.png")
+            h5 Happy Clients
+            p.espacioLineas Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+            p.espacioLineas Ut enim ad minim veniam, quis nostrud
         section.container.fondoCirculos
             img.responsive-img(src="../assets/images/home/under.png")
         section.footer.espacio
@@ -125,7 +122,7 @@ html(lang="es")
                 p Crafted by    
                     span.blue-text Allie
 
-
+            
             
         script(type="text/javascript", src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.min.js")
         script(src="../public/template.js")
