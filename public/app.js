@@ -1,28 +1,64 @@
-var template = Handlebars.templates["index"]; 
-            var compilar = Handlebars.compile(template);
-    
-            var cuadrosAboutUsChicos = {
+var template = document.getElementById("index").
+                innerHTML;
+            console.log(template);
+var compilar = Handlebars.compile(template); 
+
+            var cuadrosPortafolio = {
                 caracteristicas : [
                     {
-                        imagen: "<img src='..assets/images/home/icon1.png'>",
-                        titulo: "Incredibly Responsive",
-                        resumen: "Ground round tenderloin flank shank ribeye. Hamkevin meatball swine. Cow shankle beef sirloin chicken ground round."
+                        imagen: "<img src='../assets/images/portfolio/1.jpg'>",
+                        titulo: "Sailing Vivamus"
                     },
                     {
-                        imagen: "<img src='..assets/images/home/icon2.png'>",
-                        titulo: "Superior Typography",
-                        resumen: "Hamburger ribeye drumstick turkey, strip steak sausage ground round shank pastrami beef brisket pancetta venison."
+                        imagen: "<img src='../assets/images/portfolio/2.jpg'>",
+                        titulo: "Sailing Vivamus"
                     },
                     {
-                       imagen: "<img src='..assets/images/home/icon3.png'>",
-                        titulo: "Swift Page Builder",
-                        resumen: "Venison tongue, salami corned beef ball tip meatloaf bacon. Fatback pork belly bresaola tenderloin bone pork kevin shankle." 
+                       imagen: "<img src='../assets/images/portfolio/3.jpg'>",
+                        titulo: "Sailing Vivamus"
+                    },
+                    {
+                        imagen: "<img src='../assets/images/portfolio/4.jpg'>",
+                        titulo: "Sailing Vivamus"
+                    },
+                    {
+                        imagen: "<img src='../assets/images/portfolio/5.jpg'>",
+                        titulo: "Sailing Vivamus"
+                    },
+                    {
+                        imagen: "<img src='../assets/images/portfolio/6.jpg'>",
+                        titulo: "Sailing Vivamus"
+                    },
+                    {
+                        imagen: "<img src='../assets/images/portfolio/7.jpg'>",
+                        titulo: "Sailing Vivamus"
+                    },
+                    {
+                        imagen: "<img src='../assets/images/portfolio/8.jpg'>",
+                        titulo: "Sailing Vivamus"
+                    },
+                    {
+                        imagen: "<img src='../assets/images/portfolio/9.jpg'>",
+                        titulo: "Sailing Vivamus"
+                    },
+                    {
+                        imagen: "<img src='../assets/images/portfolio/10.jpg'>",
+                        titulo: "Sailing Vivamus"
+                    },
+                    {
+                        imagen: "<img src='../assets/images/portfolio/11.jpg'>",
+                        titulo: "Sailing Vivamus"
+                    },
+                    {
+                        imagen: "<img src='../assets/images/portfolio/12.jpg'>",
+                        titulo: "Sailing Vivamus"
                     }
                 ]
             }
             
             
-            document.getElementById("action").innerHTML += template(data);
+           var compiladoHTML = compilar(cuadrosPortafolio);
+            document.getElementById("action").innerHTML += compiladoHTML;
             
             
 
