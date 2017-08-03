@@ -6,51 +6,51 @@ var compilar = Handlebars.compile(template);
             var cuadrosPortafolio = {
                 caracteristicas : [
                     {
-                        imagen: "<img src='../assets/images/portfolio/1.jpg'>",
+                        imagen: "<img src='../assets/images/portfolio/1.jpg'class='responsive-img'>",
                         titulo: "Sailing Vivamus"
                     },
                     {
-                        imagen: "<img src='../assets/images/portfolio/2.jpg'>",
+                        imagen: "<img src='../assets/images/portfolio/2.jpg'class='responsive-img'>",
                         titulo: "Sailing Vivamus"
                     },
                     {
-                       imagen: "<img src='../assets/images/portfolio/3.jpg'>",
+                       imagen: "<img src='../assets/images/portfolio/3.jpg'class='responsive-img'>",
                         titulo: "Sailing Vivamus"
                     },
                     {
-                        imagen: "<img src='../assets/images/portfolio/4.jpg'>",
+                        imagen: "<img src='../assets/images/portfolio/4.jpg'class='responsive-img'>",
                         titulo: "Sailing Vivamus"
                     },
                     {
-                        imagen: "<img src='../assets/images/portfolio/5.jpg'>",
+                        imagen: "<img src='../assets/images/portfolio/5.jpg'class='responsive-img'>",
                         titulo: "Sailing Vivamus"
                     },
                     {
-                        imagen: "<img src='../assets/images/portfolio/6.jpg'>",
+                        imagen: "<img src='../assets/images/portfolio/6.jpg'class='responsive-img'>",
                         titulo: "Sailing Vivamus"
                     },
                     {
-                        imagen: "<img src='../assets/images/portfolio/7.jpg'>",
+                        imagen: "<img src='../assets/images/portfolio/7.jpg'class='responsive-img'>",
                         titulo: "Sailing Vivamus"
                     },
                     {
-                        imagen: "<img src='../assets/images/portfolio/8.jpg'>",
+                        imagen: "<img src='../assets/images/portfolio/8.jpg'class='responsive-img'>",
                         titulo: "Sailing Vivamus"
                     },
                     {
-                        imagen: "<img src='../assets/images/portfolio/9.jpg'>",
+                        imagen: "<img src='../assets/images/portfolio/9.jpg'class='responsive-img'>",
                         titulo: "Sailing Vivamus"
                     },
                     {
-                        imagen: "<img src='../assets/images/portfolio/10.jpg'>",
+                        imagen: "<img src='../assets/images/portfolio/10.jpg'class='responsive-img'>",
                         titulo: "Sailing Vivamus"
                     },
                     {
-                        imagen: "<img src='../assets/images/portfolio/11.jpg'>",
+                        imagen: "<img src='../assets/images/portfolio/11.jpg'class='responsive-img'>",
                         titulo: "Sailing Vivamus"
                     },
                     {
-                        imagen: "<img src='../assets/images/portfolio/12.jpg'>",
+                        imagen: "<img src='../assets/images/portfolio/12.jpg'class='responsive-img'>",
                         titulo: "Sailing Vivamus"
                     }
                 ]
