@@ -75,6 +75,8 @@ var compilar = Handlebars.compile(template);
             
            var compiladoHTML = compilar(cuadrosPortafolio);
             document.getElementById("action").innerHTML += compiladoHTML;
-            
+         
+
+         
             
 
