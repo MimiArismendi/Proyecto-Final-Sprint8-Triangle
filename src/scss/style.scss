@@ -1,21 +1,10 @@
-/*.iconosHome{
-    letter-spacing: 10px;
-}
-nav{
-    background-color: white;
-    box-shadow: none;
-}
-
-a.material-icons{
-    font-size: 15px;
-}*/
-
 $titulos: 15px;
 $blancos: white;
 $espacios: 10px;
 $espacioSuperior: 100px;
 $interlineadoChiquito: 5px;
 $transparente: transparent;
+$posicionImg: absolute;
 
 .iconosHome{
     letter-spacing: $espacios;
@@ -49,37 +38,38 @@ nav{
 }
 
 .montana{
-    width: 100%;
+    width: 86%;
     height: auto;
     margin-top: -60px;
 }
 .aves1{
-    position: absolute;
+    position: $posicionImg;
     left: 44%;
-    top: 45%;
+    top: 48%;
 }
 
 .aves2{
-    position: absolute;
-    right: 15%;
-    top:40%;
+    position: $posicionImg;
+    right: 20%;
+    top:43%;
 }
 
 .sol{
-    position: absolute;
+    position: $posicionImg;
     right: 37%;
-    top: 40%;
+    top: 42%;
 }
 
 .casa{
-    position: absolute;
+    position: $posicionImg;
     left: 50%;
-    top: 44%;
+    top: 48%;
 }
 .footer{
     background-image: url(../../assets/images/home/footer.png);
     background-size: cover;
-    background-position: bottom;
+    background-position: top;
+    padding-top: $espacioSuperior;
 }
 
 .espacioLineas{
@@ -94,4 +84,8 @@ nav{
     background-color: $transparente;
     border: 2px solid cyan;
     border-radius: 10px;
+}
+
+.rojito{
+    border: 1px solid red;
 }

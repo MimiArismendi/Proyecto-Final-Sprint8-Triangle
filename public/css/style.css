@@ -1,16 +1,5 @@
-/*.iconosHome{
-    letter-spacing: 10px;
-}
-nav{
-    background-color: white;
-    box-shadow: none;
-}
-
-a.material-icons{
-    font-size: 15px;
-}*/
 .iconosHome {
-  letter-spacing: 10x; }
+  letter-spacing: 10px; }
 
 nav {
   background-color: white;
@@ -35,34 +24,35 @@ nav {
   height: 40vh; }
 
 .montana {
-  width: 100%;
+  width: 86%;
   height: auto;
   margin-top: -60px; }
 
 .aves1 {
   position: absolute;
   left: 44%;
-  top: 45%; }
+  top: 48%; }
 
 .aves2 {
   position: absolute;
-  right: 15%;
-  top: 40%; }
+  right: 20%;
+  top: 43%; }
 
 .sol {
   position: absolute;
   right: 37%;
-  top: 40%; }
+  top: 42%; }
 
 .casa {
   position: absolute;
   left: 50%;
-  top: 44%; }
+  top: 48%; }
 
 .footer {
   background-image: url(../../assets/images/home/footer.png);
   background-size: cover;
-  background-position: bottom; }
+  background-position: top;
+  padding-top: 100px; }
 
 .espacioLineas {
   line-height: 5px; }
@@ -74,5 +64,8 @@ nav {
   background-color: transparent;
   border: 2px solid cyan;
   border-radius: 10px; }
+
+.rojito {
+  border: 1px solid red; }
 
 /*# sourceMappingURL=style.css.map */

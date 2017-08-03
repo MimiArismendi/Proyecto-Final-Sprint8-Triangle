@@ -52,6 +52,22 @@ var compilar = Handlebars.compile(template);
                     {
                         imagen: "<img src='../assets/images/portfolio/12.jpg'class='responsive-img'>",
                         titulo: "Sailing Vivamus"
+                    },
+                    {
+                        imagen: "<img src='../assets/images/portfolio/13.jpg'class='responsive-img'>",
+                        titulo: "Sailing Vivamus"
+                    },
+                    {
+                        imagen: "<img src='../assets/images/portfolio/14.jpg'class='responsive-img'>",
+                        titulo: "Sailing Vivamus"
+                    },
+                    {
+                        imagen: "<img src='../assets/images/portfolio/15.jpg'class='responsive-img'>",
+                        titulo: "Sailing Vivamus"
+                    },
+                    {
+                        imagen: "<img src='../assets/images/portfolio/16.jpg'class='responsive-img'>",
+                        titulo: "Sailing Vivamus"
                     }
                 ]
             }
